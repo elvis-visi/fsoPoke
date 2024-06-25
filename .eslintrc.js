@@ -16,6 +16,11 @@ module.exports = {
     'ecmaVersion': 2018,
     'sourceType': 'module'
   },
+  'settings': {
+    'react': {
+      'version': 'detect' // Add this line
+    }
+  },
   'plugins': [
     'react', 'jest'
   ],
@@ -24,7 +29,7 @@ module.exports = {
       'error',
       2
     ],
-    'linebreak-style': 'off',  // Disable linebreak-style rule
+    'linebreak-style': 'off',
     'quotes': [
       'error',
       'single'
