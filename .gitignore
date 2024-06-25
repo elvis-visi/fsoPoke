@@ -1,2 +1,7 @@
 dist/
 node_modules/
+
+# Ignore specific folders inside cypress
+cypress/downloads/*
+cypress/fixtures/*
+cypress/support/*
